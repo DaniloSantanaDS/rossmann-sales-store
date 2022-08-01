@@ -41,8 +41,6 @@ Esse foi o questionamento do CEO da ROSSMANN para os seus gerentes e diretores, 
 | competition_open_since[Month/Year] | Informa ano e mês em que o concorrente mais próximo foi inaugurado |
 | promo                            | Informa se a loja está realizando promoção no dia.         |
 | promo2                           | Informa uma continuido de promoção para algumas lojas, indicando: 0 = Loja não participa, 1 = Loja está participando |
-| promo2_since_year_week           | Descreve o ano e a semana em que a loja começou a participar da Promo2 |
-| promo_interval                    | Descreve os intervalos consecutivos de início da promoção 2, nomeando os meses em que a promoção é iniciada novamente. Por exemplo. "Fev, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
 
 ***Informação retirada e traduzida do desafio postado no Kaggle***
 
