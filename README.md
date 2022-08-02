@@ -2,7 +2,7 @@
 
 **Dirk Rossmann GmbH** (usual: Rossmann) é uma das maiores redes de drogarias da Europa, com cerca de 56.200 funcionários e mais de 4.000 lojas em toda a Europa.
 
-**“Quanto cada loja da rede irá vendar em 6 semanas?”**
+**“Quanto cada loja da rede irá vender em 6 semanas?”**
 
 Esse foi o questionamento do CEO da ROSSMANN para os seus gerentes e diretores, o mesmo planeja realizar uma grande reforma em sua rede. A motivação? Padronizar todas as drogarias, tanto com estoque, quanto esteticamente, com a finalidade de todas terem o rendimento parecido uma com as outras. O método atual que a empresa utiliza para prever esse comportamento é um método de média simples, atrelado em algumas planilhas com dados no excel. Foi solicitado o serviço de um Cientista de Dados para a implementação de um modelo mais robusto para a empresa, utilzando modelos de Machine Learning.
 
@@ -135,7 +135,7 @@ Para utilizar esse método levamos em que um modelo que ocupa muito espaço, aca
 
 ## Final Performance - Hyperparameter Fine Tunning Cross Validation
 
-Após encontrar os melhores parâmetros para o modelo através do metódo Random Search as métricas finais para o modelo foram as seguintes:
+Após utilizar o Random Search para encontrar os melhores parametros para o modelo XGBoost, encontramos os seguintes valores:
 
 | Model Name | MAE CV   | MAPE CV      | RMSE CV |
 |-----------|---------|-----------|---------|
@@ -154,8 +154,6 @@ Após encontrar os melhores parâmetros para o modelo através do metódo Random
 
 Para o primeiro ciclo o XGBoost, obteve um excelente resultado e bem aceitável, no quarto gráfico, da para perceber que existem algumas lojas que nao estão centralizadas no cone, essas lojas por algum motivo apresentaram
 um erro um pouco alto comparado com as outras lojas, em um segundo ciclo da metodologia (CRISP-DM) será analisado a risca para entender o que está afetando esse fenômeno.
-
-
 
 #  Próximos Passos
 
